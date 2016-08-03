@@ -4,7 +4,6 @@ var path = require("path");
 
 var index = require('./routes/index.js');
 var input = require('./routes/input.js');
-var bodyParser = require('body-parser');
 
 var app = express();
 
