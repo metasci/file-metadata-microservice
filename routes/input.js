@@ -1,17 +1,20 @@
 
 var multer = require('multer');
-var upload = multer({ dest: './uploads' });
 
-
+var fs = require('fs');
+var path = require("path");
 
 
 module.exports = function(app){
     
-    app.post('/', upload.single('upl'), function(req, res){
+    app.post('/', multer().single('upl'), function(req, res){
         
         res.json({
             size: req.file.size
         });
+        
+        
+        
     });
     
 }
