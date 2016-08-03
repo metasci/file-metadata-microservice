@@ -1,7 +1,6 @@
 
 var multer = require('multer');
 
-var fs = require('fs');
 var path = require("path");
 
 
@@ -12,8 +11,6 @@ module.exports = function(app){
         res.json({
             size: req.file.size
         });
-        
-        
         
     });
     

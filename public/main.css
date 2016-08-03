@@ -1,0 +1,49 @@
+body {
+    background: #ff9966;
+}
+
+
+.container {
+    font-size: 30px;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+} 
+
+h1 {
+	font-size: 50px;
+	margin: 80px auto;
+	text-align: center;
+}
+
+/* same styles, seperate tags */
+h1, h2 {
+	text-shadow: -2px 2px 5px #4d1a00;
+}
+
+
+.user {
+	border-left: 4px solid #4d4d4d;
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 1000px;
+}
+
+/* style li inside .user */
+.user li {
+	background-color: #f2f2f2;
+	display: inline-block;
+	font-size: 20px;
+	margin: 0 0 25px 0;
+}
+
+
+
+.me {
+    margin: 100px 0;
+    text-align: center;
+}
+.me a {
+    color: white;
+    text-decoration: none;
+}
